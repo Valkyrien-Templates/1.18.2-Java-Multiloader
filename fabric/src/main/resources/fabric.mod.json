@@ -16,22 +16,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      {
-        "adapter": "kotlin",
-        "value": "io.github.techtastic.vs_addon_template.fabric.VSAddonTemplateModFabric"
-      }
+      "io.github.techtastic.vs_addon_template.fabric.VSAddonTemplateModFabric"
     ],
     "client": [
-      {
-        "adapter": "kotlin",
-        "value": "io.github.techtastic.vs_addon_template.fabric.VSAddonTemplateModFabric${'$'}Client"
-      }
+      "io.github.techtastic.vs_addon_template.fabric.VSAddonTemplateModFabric${'$'}Client"
     ],
     "preLaunch": [
-      {
-        "adapter": "kotlin",
-        "value": "io.github.techtastic.vs_addon_template.fabric.ValkyrienPreLaunch"
-      }
+      "io.github.techtastic.vs_addon_template.fabric.ValkyrienPreLaunch"
     ]
   },
   "mixins": [
